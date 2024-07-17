@@ -1,0 +1,13 @@
+﻿@page "/working-counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<ErrorBoundary>
+    <ChildContent>
+        <WorkingCounterComponent />
+    </ChildContent>
+    <ErrorContent>
+        <p>Oh no an error has occurred.</p>
+    </ErrorContent>
+</ErrorBoundary>
